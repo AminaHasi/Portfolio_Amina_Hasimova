@@ -545,7 +545,7 @@ body{
 	font-size: 20px;
 	font-weight: bold;
 	padding-right: 15px;
-	color: #F1FFFF;
+	color: #fff;
 }
 .list_smm li{
 	font-weight: 500;
@@ -694,6 +694,11 @@ body{
 		padding-top: 30px;
 		padding-bottom: 30px;
 	}
+		@media(max-width: 560.98px){
+		.featured{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
 	}
 
 .featured__container{}
@@ -786,7 +791,7 @@ body{
 		flex-direction: column-reverse;
 	}
 	.content-featured__body{
-		max-width: 550px;
+		max-width: 450px;
 		flex: 1 1 auto;
 	    padding-top: 40px;
 	}
